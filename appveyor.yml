@@ -49,6 +49,7 @@
   branches:
     only:
       - develop
+  os: test
   version: 2015.1.{build}-alpha
   environment:
     version: 2015.1.%APPVEYOR_BUILD_NUMBER%
